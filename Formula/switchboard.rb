@@ -2,14 +2,8 @@ class Switchboard < Formula
   desc "Native macOS GUI for Granted AWS profile management"
   homepage "https://github.com/clarkemn/switchboard"
   version "1.0.0"
-
-  if Hardware::CPU.arm?
-    url "https://github.com/clarkemn/switchboard/releases/download/v1.0.0/switchboard-1.0.0-darwin-arm64.tar.gz"
-    sha256 "PLACEHOLDER_ARM64_SHA256"
-  else
-    url "https://github.com/clarkemn/switchboard/releases/download/v1.0.0/switchboard-1.0.0-darwin-amd64.tar.gz"
-    sha256 "PLACEHOLDER_AMD64_SHA256"
-  end
+  url "https://github.com/clarkemn/switchboard/releases/download/v1.0.0/switchboard-1.0.0-darwin-arm64.tar.gz"
+  sha256 "d83460543be4118155ec7f84dab4a040316ebd2b4a8f2e2b5e48bb5ff9d7cb7a"
 
   def install
     prefix.install "Switchboard.app"
@@ -19,6 +13,8 @@ class Switchboard < Formula
     <<~EOS
       Switchboard has been installed to:
         #{prefix}/Switchboard.app
+
+      Note: This is an ARM64-only build for Apple Silicon Macs.
 
       To use Switchboard, you can:
         1. Open it from Applications folder (if linked)
