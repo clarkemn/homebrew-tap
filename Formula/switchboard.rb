@@ -3,7 +3,7 @@ class Switchboard < Formula
   homepage "https://github.com/clarkemn/switchboard"
   url "https://github.com/clarkemn/switchboard/releases/download/v1.0.0/switchboard-1.0.0-darwin-arm64.tar.gz"
   version "1.0.0"
-  sha256 "d83460543be4118155ec7f84dab4a040316ebd2b4a8f2e2b5e48bb5ff9d7cb7a"
+  sha256 "58db37a2410387b32d76343f6611521b6ce437c31798273903eb20fd22544840"
 
   def install
     prefix.install "Switchboard.app"
