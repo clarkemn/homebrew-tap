@@ -4,7 +4,7 @@ cask "switchboard" do
 
   url "https://github.com/clarkemn/switchboard/releases/download/v#{version}/switchboard-#{version}-darwin-arm64.tar.gz"
   name "Switchboard"
-  desc "Native macOS GUI for Granted AWS profile management"
+  desc "Native GUI for Granted AWS profile management"
   homepage "https://github.com/clarkemn/switchboard"
 
   depends_on arch: :arm64
