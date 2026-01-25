@@ -5,8 +5,8 @@ class Switchboard < Formula
   version "1.0.0"
   sha256 "58db37a2410387b32d76343f6611521b6ce437c31798273903eb20fd22544840"
 
-  depends_on :macos
   depends_on arch: :arm64
+  depends_on :macos
 
   def install
     prefix.install "Switchboard.app"
