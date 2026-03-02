@@ -1,8 +1,8 @@
 cask "switchboard" do
-  version "1.0.0"
-  sha256 "58db37a2410387b32d76343f6611521b6ce437c31798273903eb20fd22544840"
+  version "1.1.2"
+  sha256 "793c216c8012779d1b832660dd233de2902a93c0faeafddf03e8b6e292b68b19"
 
-  url "https://github.com/clarkemn/switchboard/releases/download/v#{version}/switchboard-#{version}-darwin-arm64.tar.gz"
+  url "https://github.com/clarkemn/switchboard/releases/download/v1.1.2/switchboard-1.1.2-darwin-arm64.tar.gz"
   name "Switchboard"
   desc "Native GUI for Granted AWS profile management"
   homepage "https://github.com/clarkemn/switchboard"
