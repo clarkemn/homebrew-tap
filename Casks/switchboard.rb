@@ -1,6 +1,6 @@
 cask "switchboard" do
-  version "1.1.6"
-  sha256 "6e828afe1ec27c7151af96749c469ca0fb57abe43ab4075ce22e74be3e061b90"
+  version "1.1.7"
+  sha256 "28af262d4a6f4aa8514cd0dbbc240fababdad4f443bd728df39b0fc5f06699ac"
 
   url "https://github.com/clarkemn/switchboard/releases/download/v#{version}/switchboard-#{version}-darwin-arm64.tar.gz"
   name "Switchboard"
